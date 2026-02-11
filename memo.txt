@@ -1,0 +1,25 @@
+# controle de acesso:
+*administrador: acesso total
+*gerente
+    *buscar contas
+    *visualizar contas
+    *modificar contas
+    *bloquear contas
+    *fechar contas
+    *abrir contas
+*cliente
+    *visualizar a propria conta
+    *atualizar dados da propria conta
+    *depositar dinheiro
+    *sacar dinheiro da propria conta
+    *solicitar o fechamento da conta
+
+#conta bancaria
+#agencia
+#endereço
+#transações
+
+#banco de dados:
+*pessoas
+*cargos
+*regras
