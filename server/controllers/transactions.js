@@ -5,20 +5,28 @@ class Transactions{
         ]
     }
 
-    get(){// pega apenas 1 registro
-
+    static get(req){// pega apenas 1 registro
+        return[
+            {"id": "1",'saldo': 22,}
+        ]
     }
 
-    create(){//cria um registro (referente ao metodo post)
-
+    static create(req){//cria um registro (referente ao metodo post)
+        return[
+            {"id": "1",'saldo': 22,}
+        ]
     }
 
-    update(){//atualiza registros (referenciado pelo put/patch)
-
+    static update(req){//atualiza registros (referenciado pelo put/patch)
+        return[
+            {"id": "1",'saldo': 22,}
+        ]
     }
 
-    delete(){//apaga/inativa um registro
-
+    static delete(req){//apaga/inativa um registro
+        return[
+            {"id": "1",'saldo': 22,}
+        ]
     }
 }
 
