@@ -1,6 +1,8 @@
 class People{
-    index(){//retorna uma lista de todas as informações
-
+    static index(req){//retorna uma lista de todas as informações
+        return[
+            {"nome": "Artur",'idade': 22,}
+        ]
     }
 
     get(){// pega apenas 1 registro
@@ -19,3 +21,5 @@ class People{
 
     }
 }
+
+module.exports = People;

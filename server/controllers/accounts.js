@@ -1,6 +1,8 @@
 class Account{
-    index(){//retorna uma lista de todas as informações
-
+    static index(){//retorna uma lista de todas as informações
+        return[
+            {"id": "1",'saldo': 22,}
+        ]
     }
 
     get(){// pega apenas 1 registro
@@ -19,3 +21,5 @@ class Account{
 
     }
 }
+
+module.exports = Account;

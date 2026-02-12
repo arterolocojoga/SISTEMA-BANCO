@@ -1,6 +1,8 @@
 class Transactions{
-    index(){//retorna uma lista de todas as informações
-
+    static index(){//retorna uma lista de todas as informações
+        return[
+            {"conta": "123",'valor': 22,}
+        ]
     }
 
     get(){// pega apenas 1 registro
@@ -19,3 +21,5 @@ class Transactions{
 
     }
 }
+
+module.exports = Transactions;

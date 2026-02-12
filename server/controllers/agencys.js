@@ -1,6 +1,8 @@
 class Agency{
-    index(){//retorna uma lista de todas as informações
-
+    static index(){//retorna uma lista de todas as informações
+        return[
+            {"nome": "enterprise",'sed': 22,}
+        ]
     }
 
     get(){// pega apenas 1 registro
@@ -19,3 +21,5 @@ class Agency{
 
     }
 }
+
+module.exports = Agency;
