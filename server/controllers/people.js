@@ -1,8 +1,9 @@
+const PersonModel = require('../models/person');
+
 class People{
-    static index(req){//retorna uma lista de todas as informações
-        return[
-            {"nome": "Artur",'idade': 22,}
-        ]
+    static async index(req){//retorna uma lista de todas as informações
+        let people = await PersonModel.find({})
+        return people;
     }
 
     static get(req){// pega apenas 1 registro
